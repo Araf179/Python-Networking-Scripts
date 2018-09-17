@@ -36,8 +36,6 @@ def subnet_calc():
             else:
                 print("\nThe subnet mask is INVALID! Please retry!\n")
                 continue
-         
-	############# Application #1 - Part #2 #############
 		 
         #Algorithm for subnet identification, based on IP and Subnet Mask
         
@@ -85,7 +83,6 @@ def subnet_calc():
         wildcard_mask = ".".join(wildcard_octets)
         #print wildcard_mask
         
-        ############# Application #1 - Part #3 #############
         
         #Convert IP to binary string
         ip_octets_padded = []
@@ -156,8 +153,7 @@ def subnet_calc():
         print("Wildcard mask: %s" % wildcard_mask)
         print("Mask bits: %s" % no_of_ones)
         print("\n")
-        
-        ############# Application #1 - Part #4 #############
+
         
         #Generation of random IP in subnet
         while True:
