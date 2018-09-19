@@ -9,9 +9,11 @@ Networking Scripts made in Python 3.6
 --ssh_ip.txt
 
 Contains the ip addresses of the routers in the network
+
 --ssh_userpass.txt
 
 Storing the username and password seperated by a comma
+
 --ssh_commands.txt
 
 Commands to be sent to each router
